@@ -2,12 +2,28 @@
 
 Intelligence Built Like the World's Best Teams.
 
-Avalon is an open-source initiative exploring multi-agent AI systems, collaborative reasoning, adversarial review, and decision intelligence.
+Avalon explores a simple idea:
 
-## Philosophy
+The world's greatest decisions are rarely made by a single expert.
 
-Most AI systems answer questions.
+They emerge from teams that specialize, collaborate, challenge assumptions, and synthesize information into action.
 
-Avalon is designed to deliberate first.
+This repository contains open-source experiments, frameworks, and reference implementations inspired by that philosophy.
 
-Every recommendation should be challenged, supported, and explained before action.
+---
+
+## Core Principles
+
+- Specialized intelligence
+- Adversarial review
+- Collaborative reasoning
+- Decision transparency
+- Continuous learning
+
+---
+
+## Vision
+
+Most AI systems provide answers.
+
+Avalon is exploring how AI systems can work together as teams.
