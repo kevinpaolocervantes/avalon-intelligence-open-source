@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+avalon_intelligence_open_source.egg-info/PKG-INFO
+avalon_intelligence_open_source.egg-info/SOURCES.txt
+avalon_intelligence_open_source.egg-info/dependency_links.txt
+avalon_intelligence_open_source.egg-info/top_level.txt
+consensus/__init__.py
+consensus/consensus.py
+tests/test_consensus.py

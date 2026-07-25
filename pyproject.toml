@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "avalon-intelligence-open-source"
+version = "0.1.0"
+description = "Open-source building blocks for collaborative AI systems."
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["consensus*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
