@@ -1,5 +1,7 @@
 """Example usage of the Avalon Researcher Agent."""
 
+from pprint import pprint
+
 from agents.researcher_agent import ResearcherAgent
 
 
@@ -7,18 +9,25 @@ def main() -> None:
     researcher = ResearcherAgent()
 
     result = researcher.review(
-        topic="Quarterly revenue growth",
+        topic="Should the company expand into the Southeast market?",
         evidence=[
-            "Q1 earnings report",
-            "Q2 earnings report",
-            "Q3 earnings report",
+            "Customer demand increased 18% year-over-year.",
+            "Three enterprise customers requested local support.",
+            "Projected operating margins exceed the company minimum.",
+            "Existing distribution partners can support expansion.",
+        ],
+        contradictions=[
+            "Customer acquisition costs are projected to increase by 12%."
         ],
         assumptions=[
-            "Published financial statements are accurate.",
+            "Regional demand will remain stable over the next twelve months."
+        ],
+        gaps=[
+            "Regulatory compliance costs have not been fully estimated."
         ],
     )
 
-    print(result.as_dict())
+    pprint(result.as_dict())
 
 
 if __name__ == "__main__":
